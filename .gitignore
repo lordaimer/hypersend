@@ -1,0 +1,26 @@
+# General & System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.fseventsd
+
+# Log files
+*.log
+
+# Secrets and Environment Variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE and Editors
+.idea
+.vscode
+
+# Rust
+**/target
